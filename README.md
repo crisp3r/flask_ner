@@ -9,4 +9,23 @@ Exposing spacy ner models over an API
 
 ## Setup
 
+```sh
+git clone https://github.com/crisp3r/flask_ner.git
+```
+
+### Server
+
+```sh
+$ cd flask_ner
+$ docker build -t flaskner_backend -f flask.Dockerfile
+$ docker run -d flaskner_backend --name backend
+```
+
+### WebApp
+
+```sh
+$ cd flask_ner/web
+$ npm start
+```
+
 ## Demo
