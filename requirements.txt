@@ -9,8 +9,6 @@ en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
 Flask==1.1.2
 Flask-Cors==3.0.10
-# Editable install with no version control (flaskner==0.0.1)
--e /home/app_exorcist/Code/flask-ner
 idna==2.10
 iniconfig==1.1.1
 itsdangerous==1.1.0
