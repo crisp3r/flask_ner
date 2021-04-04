@@ -4,7 +4,7 @@ import unittest
 class E2ETests(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox(executable_path="/home/app_exorcist/Code/flask-ner/test/geckodriver")
+        self.driver = webdriver.Firefox(executable_path="./test/geckodriver")
         # link to the web ui
         self.driver.get("localhost:3000")
 
